@@ -1,0 +1,10 @@
+public/
+resources/
+.hugo_build.lock
+.venv/
+*.pdf
+Site Files.zip
+Hannah - The Vets/
+Prachead_5.gif
+logo_400x100.jpg
+newlogo_square_no_writing.jpg

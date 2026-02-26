@@ -1,0 +1,28 @@
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-col">
+      <h3>Heath &amp; Reach Veterinary Surgery</h3>
+      <p>{{ .Site.Params.address }}</p>
+    </div>
+    <div class="footer-col">
+      <h3>Contact</h3>
+      <p><a href="tel:{{ replaceRE `\s` "" .Site.Params.phone }}">{{ .Site.Params.phone }}</a></p>
+      <p><a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a></p>
+    </div>
+    <div class="footer-col">
+      <h3>Opening Hours</h3>
+      <p>{{ .Site.Params.hoursWeekday }}</p>
+      <p>{{ .Site.Params.hoursSaturday }}</p>
+    </div>
+    <div class="footer-col">
+      <h3>Links</h3>
+      <p><a href="/privacy-policy/">Privacy Policy</a></p>
+      <p><a href="/terms-and-conditions/">Terms &amp; Conditions</a></p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <p>&copy; 2025 Heath &amp; Reach Veterinary Surgery. All rights reserved.</p>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,40 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="container">
+    <h1>Heath &amp; Reach Veterinary Surgery</h1>
+    <p class="hero-intro">We're an independent small animal practice located in a beautifully converted 200-year-old barn in the village of Heath and Reach, close to the town of Leighton Buzzard and the Woburn area. We provide excellent care, treatment and surgery for dogs, cats and small mammals.</p>
+    <div class="hero-hours">
+      <h2>Opening Hours</h2>
+      <p>{{ .Site.Params.hoursWeekday }}</p>
+      <p>{{ .Site.Params.hoursSaturday }}</p>
+    </div>
+    <div class="cta-row">
+      <a href="{{ .Site.Params.bookingURL }}" class="btn btn-primary">Book an Appointment</a>
+      <a href="/prescriptions/" class="btn btn-secondary">Repeat Prescriptions</a>
+    </div>
+  </div>
+</section>
+
+<section class="info-cards">
+  <div class="container card-grid">
+    <div class="card">
+      <h3>Phone</h3>
+      <a href="tel:{{ replaceRE `\s` "" .Site.Params.phone }}" class="card-phone">{{ .Site.Params.phone }}</a>
+    </div>
+    <div class="card">
+      <h3>Email</h3>
+      <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
+    </div>
+    <div class="card">
+      <h3>Address</h3>
+      <p>{{ .Site.Params.address }}</p>
+    </div>
+  </div>
+</section>
+
+<section class="home-emergency">
+  <div class="container">
+    {{ partial "emergency-box.html" . }}
+  </div>
+</section>
+{{ end }}

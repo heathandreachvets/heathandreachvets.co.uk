@@ -1,0 +1,58 @@
+baseURL = "https://www.heathandreachvets.co.uk/"
+languageCode = "en-gb"
+title = "Heath & Reach Veterinary Surgery"
+enableRobotsTXT = true
+
+[params]
+  phone = "01525 237444"
+  email = "reception@heathandreachvets.co.uk"
+  managerEmail = "jennifer.pettengell@heathandreachvets.co.uk"
+  address = "Kingswood Farm, Brickhill Road, Heath & Reach, Bedfordshire LU7 0BA"
+  emergencyPhone = "01908 509500"
+  emergencyProvider = "Vets Now"
+  emergencyLocation = "Milton Keynes Veterinary Hospital, Walnut Tree"
+  hoursWeekday = "Mon–Fri 8am–7pm"
+  hoursSaturday = "Saturday 8am–12pm"
+  bookingURL = "/online/"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+
+[[menus.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menus.main]]
+  name = "Services"
+  url = "/services/"
+  weight = 2
+
+[[menus.main]]
+  name = "Our Practice"
+  url = "/practice/"
+  weight = 3
+
+[[menus.main]]
+  name = "Our Team"
+  url = "/team/"
+  weight = 4
+
+[[menus.main]]
+  name = "Appointments"
+  url = "/appointments/"
+  weight = 5
+
+[[menus.main]]
+  name = "Repeat Prescriptions"
+  url = "/prescriptions/"
+  weight = 6
+
+[[menus.main]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 7

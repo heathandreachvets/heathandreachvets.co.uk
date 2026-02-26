@@ -1,0 +1,32 @@
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="/" class="logo-link">
+      <img src="/images/logo_400x100.jpg" alt="Heath &amp; Reach Veterinary Surgery" class="logo">
+    </a>
+    <div class="header-right">
+      <a href="tel:01525237444" class="header-phone">01525 237444</a>
+      <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <nav class="main-nav" id="main-nav">
+      {{ range .Site.Menus.main }}
+      <a href="{{ .URL }}"{{ if $.IsMenuCurrent "main" . }} class="active"{{ end }}>{{ .Name }}</a>
+      {{ end }}
+    </nav>
+  </div>
+</header>
+<script>
+(function() {
+  var btn = document.querySelector('.hamburger');
+  var nav = document.getElementById('main-nav');
+  btn.addEventListener('click', function() {
+    var expanded = btn.getAttribute('aria-expanded') === 'true';
+    btn.setAttribute('aria-expanded', !expanded);
+    nav.classList.toggle('open');
+    btn.classList.toggle('open');
+  });
+})();
+</script>
