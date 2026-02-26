@@ -34,6 +34,8 @@ what3words: <a href="https://what3words.com/tonic.jumpy.sling" target="_blank" r
 Outside opening hours, call **<a href="tel:01908509500">Vets Now on 01908 509500</a>**
 Milton Keynes Veterinary Hospital, Walnut Tree
 
+<img src="/images/practice/sign.jpg" alt="Heath & Reach Veterinary Surgery sign" class="practice-photo-small" style="margin-top: 1.5rem;">
+
 </div>
 <div class="map-container">
 

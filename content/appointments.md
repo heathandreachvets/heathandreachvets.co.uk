@@ -17,6 +17,8 @@ You can also book appointments online using our booking system:
 
 Our phone lines have an automatic queuing system — your call will be answered in turn, so please stay on the line.
 
+<img src="/images/practice/teleos-diary.jpg" alt="Our appointment diary showing consulting room schedules" class="practice-photo-wide">
+
 <div class="emergency-box">
 <h3>Emergency &amp; Out-of-Hours Care</h3>
 <p>Outside our opening hours, we have an arrangement with Vets Now in Milton Keynes to provide emergency care. Call <strong><a href="tel:01908509500">Vets Now on 01908 509500</a></strong>. They are located at Milton Keynes Veterinary Hospital in Walnut Tree.</p>

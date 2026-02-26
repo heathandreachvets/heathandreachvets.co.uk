@@ -3,6 +3,8 @@ title: "Repeat Prescriptions"
 description: "Request repeat prescriptions for your pet's ongoing medication from Heath & Reach Veterinary Surgery."
 ---
 
+<img src="/images/practice/prescriptions-shelf.jpg" alt="Veterinary medicines on our dispensary shelves" class="practice-photo-wide">
+
 You can order repeat prescriptions online by filling out the form linked at the bottom of this page.
 
 Before filling in a request, please read the information below regarding our legal obligation for prescription medication for your pets, based on new rules from the Royal College of Veterinary Surgeons (RCVS), which oversees vets in the UK.
