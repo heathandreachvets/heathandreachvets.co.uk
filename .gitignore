@@ -1,10 +1,23 @@
+# Hugo build output
 public/
 resources/
 .hugo_build.lock
+
+# Python venv
 .venv/
+
+# Claude Code
+.claude/
+CLAUDE_CODE_BRIEF.md
+
+# Source photos (not needed in repo)
 *.pdf
 Site Files.zip
 Hannah - The Vets/
 Prachead_5.gif
 /logo_400x100.jpg
 /newlogo_square_no_writing.jpg
+IMG_5671a.jpg
+IMG_5700.JPG
+IMG_5813.JPG
+WhatsApp Image 2026-02-26 at 20.21.17.jpeg
