@@ -2,6 +2,7 @@ baseURL = "https://heathandreachvets.github.io/heathandreachvets.co.uk/"
 languageCode = "en-gb"
 title = "Heath & Reach Veterinary Surgery"
 enableRobotsTXT = true
+canonifyURLs = true
 
 [params]
   phone = "01525 237444"
